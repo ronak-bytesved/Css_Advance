@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <style>
+        /* .button{
+            background-color: red;
+            padding: 8px 16px;
+            /* display: inline-block; */
+            /* float: left; */
+            /* margin-left: -4px; */
+        /* }
+        .button:hover{
+            background-color: greenyellow;
+            color: brown;
+
+        } */ 
+        .btn{
+            display: inline-block;
+            border-radius: 4px;
+            background-color: burlywood;
+            padding: 12px;
+            border: none;
+            text-align: center;
+            font-size: 28px;
+            width: 200px;
+            transition: all 0.5s;
+            margin: 5px;
+        }
+
+        .btn span{
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+
+        }
+        .btn span::after{
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        .btn:hover span{
+            padding-right: 20px;
+        }
+        .btn:hover span::after{
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn" style="vertical-align: middle;"><span>Hover</span></button>
+
+
+    <!-- <div class="btn">
+        <button class="button">ok</button>
+        <button class="button">ok</button>
+        <button class="button">ok</button>
+        <button class="button">ok</button>
+        <button class="button">ok</button>
+    </div> -->
+    
+</body>
+</html>
