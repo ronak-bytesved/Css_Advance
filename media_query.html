@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        .container {
+            /* background-color: red; */
+            /* height: 500px; */
+        }
+/* 
+        @media screen and (max-width : 600px) {
+            .container {
+                background-color: green;
+            }
+        } */
+
+        .wrapper {
+            overflow: auto;
+        }
+
+        #main {
+            margin-left: 4px;
+        }
+
+        #menu {
+            float: none;
+            width: auto;
+        }
+
+        #menulist {
+            margin: 0;
+            padding: 0;
+        }
+
+        .listitem {
+            list-style-type: none;
+            background-color: rgb(245, 139, 139);
+            border: 1px solid rgb(24, 192, 248);
+            margin: 2px;
+            padding: 4px;
+        }
+
+        @media screen and (min-width: 480px) {
+            #menu {
+                width: 200px;
+                float: left;
+            }
+
+            #main {
+                margin-left: 216px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul id="menulist">
+                <li class="listitem">number1</li>
+                <li class="listitem">number1</li>
+                <li class="listitem">number1</li>
+                <li class="listitem">number1</li>
+                <li class="listitem">number1</li>
+                <li class="listitem">number1</li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="main">
+        <h1>hello this is good</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores eum quia ab accusamus quibusdam
+        tenetur totam. Possimus minus cumque illo ratione officiis provident consectetur recusandae, iure delectus.
+        Blanditiis exercitationem laboriosam dolorem ab incidunt adipisci id error nihil aspernatur maiores distinctio,
+        deleniti beatae autem dolore doloremque facere quam assumenda labore quos repudiandae quis perspiciatis. Rerum
+        assumenda ipsam voluptas eveniet, quaerat dolorem consequuntur nobis ducimus totam natus, eos accusamus fuga
+        quasi reiciendis officia non expedita beatae cum, dignissimos debitis vitae veritatis? Odit ab deserunt aut
+        voluptatum aspernatur totam neque illo nostrum sint, accusantium quae at similique, quidem officia. A, numquam
+        quam voluptas iste minus, expedita incidunt distinctio consectetur totam similique quo dolorem! Accusantium
+        repellat eaque suscipit a sunt perspiciatis, molestiae dignissimos cum!
+    </div>
+
+
+</body>
+
+</html>
